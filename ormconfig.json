@@ -3,5 +3,6 @@
     "entities": [
         "dist/product/product.js"
     ],
+    "logging": "all",
     "synchronize": true
 }

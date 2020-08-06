@@ -1,0 +1,25 @@
+POST http://127.0.0.1:3001/
+Content-Type: application/json
+
+{
+  "price": 10,
+  "sku": "1dsdsqds2",
+  "name": "tester"
+}
+###
+GET http://127.0.0.1:3001/1
+
+###
+PATCH http://127.0.0.1:3001/1
+Content-Type: application/json
+
+{
+  "price": 10,
+  "sku": "1dsdsqds2",
+  "name": "tester2"
+}
+
+###
+GET http://127.0.0.1:3001/product
+
+###

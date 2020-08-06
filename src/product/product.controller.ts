@@ -8,7 +8,7 @@ import { ProductsService } from './product.service';
       type: Product,
     },
   })
-@Controller('product')
+@Controller('')
 export class ProductController {
     constructor(public service: ProductsService) {}
 }
